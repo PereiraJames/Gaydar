@@ -30,15 +30,15 @@ class MyRoot(BoxLayout):
 
         def displayResult(dt):
             if level == 1:
-                    self.status.text = "FAGGOT DETECTED!"
+                    self.status.text = "GAY DETECTED!"
                     self.play_sound("CalmGay.mp3")
                     self.startFlash('start')
             elif level == 2:
-                self.status.text = "EXTREME CASE OF FAG!"
+                self.status.text = "100% GAY"
                 self.play_sound("AngryGay.mp3")
                 self.startFlash('start')
             elif level == 3:
-                self.status.text = "FAGGOT NOT DETECED!"
+                self.status.text = "GAY NOT DETECED!"
             else:
                 self.status.text = "ERRORRR"
             
