@@ -5,38 +5,45 @@
         Color:
             rgba: root.background_color
         Rectangle:
+            source: 'rainbow.png'
             pos:self.pos
             size:self.size
-
     BoxLayout:
-
         orientation: "vertical"
-        Label: 
-            text: "GAYDAR"
-            font_size: 64
-            color: 0.92, 0.45, 0, 1
+        Image: 
+            source: 'Title.png'
+            keep_ratio: False
+            allow_stretch: False
+        Image:
+            source: 'Arrow.png'
+            keep_ratio: False
+            allow_stretch: False
         Label:
             id: status
-            text: "Point at Potential Gayboy"
+            text: "AIM AT GAY"
             color: 0,0,0,1
+            size: self.texture_size
             font_size: 64
-        RoundedButton:
-            pos_hint: {'center_x' : 0.5}
-            size_hint: {1, .3}
-            text: "Generate"
-            font_size: 32
-            size: 20, 20
-            color: 1,1,1,1
-            on_press: root.start_press()
-            on_release: root.displayGay()
+        BoxLayout:
+            spacing: 50
+            padding: 30
+            RoundedButton:
+                pos_hint: {'center_x' : 0.5}
+                size_hint: {1, .3}
+                text: "GENERATE"
+                font_size: 32
+                size: 20, 20
+                color: 0,0,0,1
+                on_press: root.start_press()
+                on_release: root.displayGay()
 
 <RoundedButton@Button>
     background_color: (0,0,0,0)
     background_normal: ''
     canvas.before:
         Color:
-            rgba: (0,0,0.8,1)
+            rgba: (28/255,95/255,254/255,1)
         RoundedRectangle:
             pos: self.pos
             size: self.size
-            radius: [58]
+            radius: [10]
