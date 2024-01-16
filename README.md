@@ -4,6 +4,11 @@
 
 Gaydar is a light-hearted Android app designed to provide a playful and humorous experience. Users can point the arrow icon at someone, hit generate, and the app will display a random outcome related to being 'gay' or not. The app features customizable outcomes based on user interactions, allowing for both a spontaneous and controlled experience.
 
+## Experimenting with App Creation
+
+Gaydar was my way of experimenting with phone app creation. It served as a valuable learning experience in mobile app development, user interface design, and playful interaction design. The project allowed me to explore and apply various techniques within the Android development environment, contributing to my growth as a developer.
+
+
 ## Features
 
 - **Randomized Outcomes:** Point the arrow icon, hit generate, and let the app humorously determine an outcome.
